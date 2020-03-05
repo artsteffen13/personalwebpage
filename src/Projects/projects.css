@@ -1,0 +1,31 @@
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 120px auto;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.projects-spacing {
+    margin: 20px 40px;
+}
+
+.projects img {
+    height: 250px;
+    width: 180px;
+    transition: .5s;
+    opacity: .6;
+}
+
+.projects img:hover {
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+@media (max-width: 850px) {
+    .projects {
+        margin-top: 60px;
+    }
+}
+

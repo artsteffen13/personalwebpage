@@ -1,0 +1,19 @@
+.home {
+    margin-top: 220px;
+
+}
+
+.my-pic {
+    height: 150px;
+    border-radius: 50%;
+}
+
+.bottom-margin {
+    margin-bottom: 40px;
+}
+
+@media (max-width: 850px) {
+    .home {
+        margin-top: 60px;
+    }
+}
